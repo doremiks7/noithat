@@ -1,0 +1,3 @@
+function getHeader(){
+    html = "";
+}
