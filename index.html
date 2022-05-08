@@ -3964,22 +3964,22 @@
 <!--END *** POPUP LOAD =====================-->
 
 <script>
-	// setTimeout(function () {
-	// 	animation_check();
-	// }, 100);
-	// function animation_check() {
-	// 	var scrollTop = $(window).scrollTop() - 300;
-	// 	$('.animation-tran').each(function () {
-	// 		if ($(this).offset().top < scrollTop + $(window).height()) {
-	// 			$(this).addClass('active');
-	// 		}
-	// 	})
-	// }
-	// $(window).scroll(function () {
-	// 	//setTimeout(function(){
-	// 	animation_check();
-	// 	//}, 500);
-	// });
+	setTimeout(function () {
+		animation_check();
+	}, 100);
+	function animation_check() {
+		var scrollTop = $(window).scrollTop() - 300;
+		$('.animation-tran').each(function () {
+			if ($(this).offset().top < scrollTop + $(window).height()) {
+				$(this).addClass('active');
+			}
+		})
+	}
+	$(window).scroll(function () {
+		//setTimeout(function(){
+		animation_check();
+		//}, 500);
+	});
 </script>
 
 
