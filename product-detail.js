@@ -109,11 +109,10 @@ $(document).ready(function () {
               '        </li>\n';
           }
           header += '</ul></div></div>';
+          $("#bodyDetailImage").empty().html(header);
       }
     }
   }
-
-  $("#bodyDetailImage").empty().html(header);
 
 });
 
