@@ -75,10 +75,21 @@ let tamOpNhuaNgoaiTroi = [
     {"id": 12365, "productName":"Tấm ốp EW 115T10","price": "45.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat16.jpg"},
 ]
 
+let tamoptuongnoithat = [
+    {"id": 12366, "productName":"Tấm ốp NTK 3 sóng cao","price": "87.000", "url": "image\\product\\thewood-NTA-3songcao\\detail01.jpg"},
+    {"id": 12367, "productName":"Tấm ốp NTK 3 sóng ngắn","price": "93.000", "url": "image\\product\\thewood-NTA-3songngan\\detail01.jpg"},    
+    {"id": 12368, "productName":"Tấm ốp NTK 5 sóng cao","price": "81.000", "url": "image\\product\\thewood-NTA-5songcao\\detail01.jpg"},
+    {"id": 12369, "productName":"Tấm ốp NTK 5 sóng ngắn","price": "97.500", "url": "image\\product\\thewood-NTA-5songngan\\detail01.jpg"},    
+    {"id": 12370, "productName":"Tấm ốp NTK 3 300mm","price": "270.000", "url": "image\\product\\thewood-NTA-300\\detail01.jpg"},    
+    {"id": 12371, "productName":"Tấm ốp NTK 3 400mm","price": "300.000", "url": "image\\product\\thewood-NTA-400\\detail01.jpg"},    
+    // {"id": 12372, "productName":"Tấm ốp NTK 3 600mm","price": "60.000", "url": "image\\product\\thewood-NTA-600\\detail01.jpg"},
+]
+
 $(document).ready(function () {
     let genHtmlTamOpNhuaNgoaiTroi = "";
     let genHtmltranlamgonhua = "";
     let genHtmlvaidantuongsoithuytinh = "";
+    let genHtmltamoptuongnoithat = "";
 
     for (let i = 0; i < tamOpNhuaNgoaiTroi.length; i++) {
         genHtmlTamOpNhuaNgoaiTroi += "<div class=\"col-md-4 col-sm-6 col-xs-6 pro-loop \">\n" +
@@ -136,7 +147,7 @@ $(document).ready(function () {
             "                </h3>\n" +
             "                <div class=\"box-pro-prices\">\n" +
             "                    <p class=\"pro-price \">\n" +
-            "                        <span>"+ tamOpNhuaNgoaiTroi[i].price +"</span>\n" +
+            "                        <span>"+ tamOpNhuaNgoaiTroi[i].price +"₫</span>\n" +
             "                    </p>\n" +
             "                </div>\n" +
             "            </div>\n" +
@@ -284,6 +295,75 @@ $(document).ready(function () {
     }
     
     $("#vaidantuongsoithuytinh").empty().html(genHtmlvaidantuongsoithuytinh);
+
+
+    for (let i = 0; i < tamoptuongnoithat.length; i++) {
+        genHtmltamoptuongnoithat += "<div class=\"col-md-4 col-sm-6 col-xs-6 pro-loop \">\n" +
+            "    <div class=\"product-block product-resize \">\n" +
+            "        <div class=\"product-img \">\n" +
+            "            <a href=\".\\product-detail.html?product=tamoptuongnoithat&id=" + tamoptuongnoithat[i].id + " \" title=\"" + tamoptuongnoithat[i].productName + "\"\n" +
+            "                class=\"image-resize ratiobox\">\n" +
+            "                <picture>\n" +
+            "                    <source media=\"(max-width: 480px)\"\n" +
+            "                        data-srcset=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        srcset=\"" + tamoptuongnoithat[i].url + "\" />\n" +
+            "                    <source media=\"(min-width: 481px) and (max-width: 767px)\"\n" +
+            "                        data-srcset=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        srcset=\"" + tamoptuongnoithat[i].url + "\" />\n" +
+            "                    <source media=\"(min-width: 768px)\"\n" +
+            "                        data-srcset=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        srcset=\"" + tamoptuongnoithat[i].url + "\" />\n" +
+            "                    <img class=\"lazyload img-loop\" data-sizes=\"auto\"\n" +
+            "                        data-src=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        data-lowsrc=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        src=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        alt=\"" + tamoptuongnoithat[i].productName + "\" />\n" +
+            "                </picture>\n" +
+            "                <picture>\n" +
+            "                    <source media=\"(max-width: 480px)\"\n" +
+            "                        data-srcset=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        srcset=\"" + tamoptuongnoithat[i].url + "\">\n" +
+            "                    <source media=\"(min-width: 481px) and (max-width: 767px)\"\n" +
+            "                        data-srcset=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        srcset=\"" + tamoptuongnoithat[i].url + "\">\n" +
+            "                    <source media=\"(min-width: 768px)\"\n" +
+            "                        data-srcset=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        srcset=\"" + tamoptuongnoithat[i].url + "\">\n" +
+            "                    <img class=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        data-src=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        src=\"" + tamoptuongnoithat[i].url + "\"\n" +
+            "                        alt=\"" + tamoptuongnoithat[i].productName + "\" />\n" +
+            "                </picture>\n" +
+            "            </a>\n" +
+            "            <div class=\"button-add hidden\">\n" +
+            "                <button type=\"submit\" title=\"Buy now\" class=\"action\" onclick=\"buy_now('1073726547')\">Mua ngay<i\n" +
+            "                        class=\"fa fa-long-arrow-right\"></i></button>\n" +
+            "            </div>\n" +
+            "            <div class=\"pro-price-mb\">\n" +
+            "\n" +
+            "                <span class=\"pro-price\">" + tamoptuongnoithat[i].price + "₫</span>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <div class=\"product-detail clearfix\">\n" +
+            "            <div class=\"box-pro-detail\">\n" +
+            "                <h3 class=\"pro-name\">\n" +
+            "                    <a href=\"/products/giay-vai-dan-tuong-ma-0101\" title=\"" + tamoptuongnoithat[i].productName + "\">\n" +
+            "                        " + tamoptuongnoithat[i].productName + "\n" +
+            "                    </a>\n" +
+            "                </h3>\n" +
+            "                <div class=\"box-pro-prices\">\n" +
+            "                    <p class=\"pro-price \">\n" +
+            "                        <span>" + tamoptuongnoithat[i].price + "₫</span>\n" +
+            "                    </p>\n" +
+            "                </div>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "    </div>\n" +
+            "</div>";
+            
+    }
+
+    $("#tamoptuongnoithat").empty().html(genHtmltamoptuongnoithat);
 });
 
 function expandVaidantuong(){
