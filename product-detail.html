@@ -18,6 +18,101 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
+<style>
+    img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #e7dfcf;
+    position: relative;
+    margin:20px 30px ;
+}
+.container{
+    max-width: 800px;
+    background-color: white;
+    padding: 0;
+}
+.review{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px 0 ;
+}
+.name{
+    font-size: 18px;
+    color: #c1e718;
+    margin: 0;
+}
+.job{
+    color: #c8c8c8;
+    font-size: 14px;
+}
+.carousel-inner{
+    max-width: 800px;
+}
+.fa-minus {
+    font-size: 14px;
+}
+.carousel-indicators {
+    bottom: -20px;
+    right: 0;
+    margin: 0;
+}
+
+.carousel-indicators [data-bs-target ] {
+    height: 10px;
+    border: 2px solid black;
+    width: 10px;
+    background-color: inherit;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    border: 2px solid transparent;
+    background-color:#c1e718;
+}
+.left{
+    color: rgb(20, 20, 20);
+    font-weight: 600;
+}
+.right{
+    color: rgb(12, 12, 12);
+    font-weight: 600;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: relative;
+
+}
+@media (max-width:560px) {
+    .review{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .name{
+        font-size: 13px;
+    }
+    .job{
+        font-size: 10px;
+    }
+    .right{
+        font-size: 12px;
+    }
+    .left{
+        font-size: 12px;
+    }
+    .carousel-indicators [data-bs-target ] {
+        height: 8px;
+        border: 1px solid black;
+        width: 8px;
+        background-color: inherit;
+        border-radius: 50%;
+    }
+    .carousel-indicators .active{
+        border: 1px solid transparent;
+        background-color:#c1e718;
+    }
+    
+}
+</style>
 <div class="main-body  layoutProduct_scroll">
     <div class="mainHeader--height">
         <header id="site-header" class="main-header mainHeader_temp03">
@@ -891,40 +986,40 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="row product-detail-main pr_style_01">
-                        <div class="col-md-8 col-sm-12 col-xs-12">
+                        <div class="col-md-8 col-sm-12 col-xs-12" id="bodyDetailImage">
 
 
-                            <div class="product-gallery">
+                            <!-- <div class="product-gallery">
                                 <div class="product-gallery__thumbs-container hidden-sm hidden-xs">
                                     <div class="product-gallery__thumbs thumb-fix">
 
                                         <div class="product-gallery__thumb active">
                                             <a class="product-gallery__thumb-placeholder" href="javascript:void(0);"
-                                                data-image="image\product\thewood-NTA-3song\detail1.jpg"
-                                                data-zoom-image="image\product\thewood-NTA-3song\detail1.jpg">
+                                                data-image="image\product\thewood-NTA-3songcao\detail1.jpg"
+                                                data-zoom-image="image\product\thewood-NTA-3songcao\detail1.jpg">
                                                 <img alt="Tấm ốp NTK 3 sóng cao"
-                                                    src="image\product\thewood-NTA-3song\detail1.jpg"
-                                                    data-image="image\product\thewood-NTA-3song\detail1.jpg" />
+                                                    src="image\product\thewood-NTA-3songcao\detail1.jpg"
+                                                    data-image="image\product\thewood-NTA-3songcao\detail1.jpg" />
                                             </a>
                                         </div>
 
                                         <div class="product-gallery__thumb ">
                                             <a class="product-gallery__thumb-placeholder" href="javascript:void(0);"
-                                                data-image="image\product\thewood-NTA-3song\detail2.jpg"
-                                                data-zoom-image="image\product\thewood-NTA-3song\detail2.jpg">
+                                                data-image="image\product\thewood-NTA-3songcao\detail2.jpg"
+                                                data-zoom-image="image\product\thewood-NTA-3songcao\detail2.jpg">
                                                 <img alt="Tấm ốp NTK 3 sóng cao"
-                                                    src="image\product\thewood-NTA-3song\detail2.jpg"
-                                                    data-image="image\product\thewood-NTA-3song\detail2.jpg" />
+                                                    src="image\product\thewood-NTA-3songcao\detail2.jpg"
+                                                    data-image="image\product\thewood-NTA-3songcao\detail2.jpg" />
                                             </a>
                                         </div>
 
                                         <div class="product-gallery__thumb ">
                                             <a class="product-gallery__thumb-placeholder" href="javascript:void(0);"
-                                                data-image="image\product\thewood-NTA-3song\detail3.jpg"
-                                                data-zoom-image="image\product\thewood-NTA-3song\detail3.jpg">
+                                                data-image="image\product\thewood-NTA-3songcao\detail3.jpg"
+                                                data-zoom-image="image\product\thewood-NTA-3songcao\detail3.jpg">
                                                 <img alt="Tấm ốp NTK 3 sóng cao"
-                                                    src="image\product\thewood-NTA-3song\detail3.jpg"
-                                                    data-image="image\product\thewood-NTA-3song\detail3.jpg" />
+                                                    src="image\product\thewood-NTA-3songcao\detail3.jpg"
+                                                    data-image="image\product\thewood-NTA-3songcao\detail3.jpg" />
                                             </a>
                                         </div>
                                     </div>
@@ -934,24 +1029,24 @@
 
                                         <li class="product-gallery-item gallery-item">
                                             <img class="product-image-feature"
-                                                src="image\product\thewood-NTA-3song\detail1.jpg"
+                                                src="image\product\thewood-NTA-3songcao\detail1.jpg"
                                                 alt="Tấm ốp NTK 3 sóng cao">
                                         </li>
 
                                         <li class="product-gallery-item gallery-item">
                                             <img class="product-image-feature"
-                                                src="image\product\thewood-NTA-3song\detail2.jpg"
+                                                src="image\product\thewood-NTA-3songcao\detail2.jpg"
                                                 alt="Tấm ốp NTK 3 sóng cao">
                                         </li>
 
                                         <li class="product-gallery-item gallery-item">
                                             <img class="product-image-feature"
-                                                src="image\product\thewood-NTA-3song\detail3.jpg"
+                                                src="image\product\thewood-NTA-3songcao\detail3.jpg"
                                                 alt="Tấm ốp NTK 3 sóng cao">
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12 product-content-desc" id="detail-product">
                             <div class="product-title">
@@ -1086,25 +1181,25 @@
                                         <p><span style="font-size:16px"><span style="color:#e74c3c">Quy cách cuộn :
                                                     ngang 0.53m x dài 10m&nbsp;</span></span></p>
                                         <p><span style="font-size:16px"><img height="16" width="16" alt="➖"
-                                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4b/1/16/2796.png"><img
+                                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4b/1/16/2796.png" style="height: 16px; width: 16px;"><img
                                                     height="16" width="16" alt="➖"
-                                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4b/1/16/2796.png"><img
+                                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4b/1/16/2796.png" style="height: 16px; width: 16px;"><img
                                                     height="16" width="16" alt="➖"
-                                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4b/1/16/2796.png"><img
+                                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4b/1/16/2796.png" style="height: 16px; width: 16px;"><img
                                                     height="16" width="16" alt="➖"
-                                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4b/1/16/2796.png"></span>
+                                                    src="https://static.xx.fbcdn.net/images/emoji.php/v9/t4b/1/16/2796.png" style="height: 16px; width: 16px;"></span>
                                         </p>
                                         <p><span style="font-size:16px">Công Ty TNHH Thiết Kế Trang Trí Nội Thất
                                                 AL</span></p>
-                                        <p><span style="font-size:16px"><img height="16" width="16" alt="☎️"
+                                        <p><span style="font-size:16px"><img height="16" width="16" style="height: 16px; width: 16px;" alt="☎️"
                                                     src="https://static.xx.fbcdn.net/images/emoji.php/v9/t22/1/16/260e.png">
                                                 HOTLINE: 0769659114</span></p>
-                                        <p><span style="font-size:16px"><img height="16" width="16" alt="🏠"
+                                        <p><span style="font-size:16px"><img height="16" width="16" style="height: 16px; width: 16px;" alt="🏠"
                                                     src="https://static.xx.fbcdn.net/images/emoji.php/v9/tf6/1/16/1f3e0.png">
                                                 WEB: <a rel="nofollow noopener" target="_blank"
                                                     href="https://noithatal.com/?fbclid=IwAR0WCTqn97cFEtjpnk3XJ9QWQzKP1uzZMnvJO1ifd4aBHxPLtKrgKrpjBag">https://noithatal.com/</a></span>
                                         </p>
-                                        <p><span style="font-size:16px"><img height="16" width="16" alt="🏢"
+                                        <p><span style="font-size:16px"><img height="16" width="16" style="height: 16px; width: 16px;" alt="🏢"
                                                     src="https://static.xx.fbcdn.net/images/emoji.php/v9/tf8/1/16/1f3e2.png">
                                                 TP.HCM: 840/22A Đường Hương Lộ 2, Phường Bình Trị Đông A, Quận Bình Tân,
                                                 TP HCM</span></p>
@@ -1842,5 +1937,6 @@
 </div>
 <script src='option_selection.js' type='text/javascript'></script>
 <script src='api.jquery.js' type='text/javascript'></script>
+<script src='product-detail.js' type='text/javascript'></script>
 
 </html>
