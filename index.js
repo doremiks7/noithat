@@ -57,22 +57,22 @@ let vaidantuongsoithuytinh = [
 ]
 
 let tamOpNhuaNgoaiTroi = [
-    {"id": 12350, "productName":"Tấm ốp EW 159T7","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat01.jpg"},
-    {"id": 12351, "productName":"Tấm ốp EW 159T7","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat02.jpg"},
-    {"id": 12352, "productName":"Tấm ốp EW 159T27","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat03.jpg"},
-    {"id": 12353, "productName":"Tấm ốp EW 159T27","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat04.jpg"},
-    {"id": 12354, "productName":"Tấm ốp EW 204T16","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat05.jpg"},
-    {"id": 12355, "productName":"Tấm ốp EW 204T16","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat06.jpg"},
-    {"id": 12356, "productName":"Tấm ốp EW 204T16","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat07.jpg"},
-    {"id": 12357, "productName":"Tấm ốp EW 205T30","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat08.jpg"},
-    {"id": 12358, "productName":"Tấm ốp EW 205T30","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat09.jpg"},
-    {"id": 12359, "productName":"Tấm ốp EW 205T30","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat10.jpg"},
-    {"id": 12360, "productName":"Tấm ốp EW 115T9","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat11.jpg"},
-    {"id": 12361, "productName":"Tấm ốp EW 115T9","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat12.jpg"},
-    {"id": 12362, "productName":"Tấm ốp EW 115T10","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat13.jpg"},
-    {"id": 12363, "productName":"Tấm ốp EW 115T10","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat14.jpg"},
-    {"id": 12364, "productName":"Tấm ốp EW 115T10","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat15.jpg"},
-    {"id": 12365, "productName":"Tấm ốp EW 115T10","price": "1.500.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat16.jpg"},
+    {"id": 12350, "productName":"Tấm ốp EW 159T7","price": "60.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat01.jpg"},
+    {"id": 12351, "productName":"Tấm ốp EW 159T7","price": "60.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat02.jpg"},
+    {"id": 12352, "productName":"Tấm ốp EW 159T27","price": "90.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat03.jpg"},
+    {"id": 12353, "productName":"Tấm ốp EW 159T27","price": "90.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat04.jpg"},
+    {"id": 12354, "productName":"Tấm ốp EW 204T16","price": "87.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat05.jpg"},
+    {"id": 12355, "productName":"Tấm ốp EW 204T16","price": "87.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat06.jpg"},
+    {"id": 12356, "productName":"Tấm ốp EW 204T16","price": "87.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat07.jpg"},
+    {"id": 12357, "productName":"Tấm ốp EW 205T30","price": "120.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat08.jpg"},
+    {"id": 12358, "productName":"Tấm ốp EW 205T30","price": "120.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat09.jpg"},
+    {"id": 12359, "productName":"Tấm ốp EW 205T30","price": "120.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat10.jpg"},
+    {"id": 12360, "productName":"Tấm ốp EW 115T9","price": "55.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat11.jpg"},
+    {"id": 12361, "productName":"Tấm ốp EW 115T9","price": "55.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat12.jpg"},
+    {"id": 12362, "productName":"Tấm ốp EW 115T10","price": "45.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat13.jpg"},
+    {"id": 12363, "productName":"Tấm ốp EW 115T10","price": "45.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat14.jpg"},
+    {"id": 12364, "productName":"Tấm ốp EW 115T10","price": "45.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat15.jpg"},
+    {"id": 12365, "productName":"Tấm ốp EW 115T10","price": "45.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat16.jpg"},
 ]
 
 $(document).ready(function () {
