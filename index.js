@@ -76,12 +76,12 @@ let tamOpNhuaNgoaiTroi = [
 ]
 
 let tamoptuongnoithat = [
-    {"id": 12366, "productName":"Tấm ốp NTK 3 sóng cao","price": "87.000", "url": "image\\product\\thewood-NTA-3songcao\\detail1.jpg"},
-    {"id": 12367, "productName":"Tấm ốp NTK 3 sóng ngắn","price": "93.000", "url": "image\\product\\thewood-NTA-3songngan\\detail1.jpg"},    
-    {"id": 12368, "productName":"Tấm ốp NTK 5 sóng cao","price": "81.000", "url": "image\\product\\thewood-NTA-5songcao\\detail1.jpg"},
-    {"id": 12369, "productName":"Tấm ốp NTK 5 sóng ngắn","price": "97.500", "url": "image\\product\\thewood-NTA-5songngan\\detail1.jpg"},    
-    {"id": 12370, "productName":"Tấm ốp NTK 300mm","price": "270.000", "url": "image\\product\\thewood-NTA-300mm\\detail1.jpg"},    
-    {"id": 12371, "productName":"Tấm ốp NTK 400mm","price": "300.000", "url": "image\\product\\thewood-NTA-400mm\\detail1.jpg"},    
+    {"id": 12366, "productName":"Tấm ốp NTA 3 sóng cao","price": "93.000", "url": "image\\product\\thewood-NTA-3songcao\\detail1.jpg"},
+    {"id": 12367, "productName":"Tấm ốp NTA 3 sóng ngắn","price": "87.000", "url": "image\\product\\thewood-NTA-3songngan\\detail1.jpg"},    
+    {"id": 12368, "productName":"Tấm ốp NTA 5 sóng cao","price": "97.000", "url": "image\\product\\thewood-NTA-5songcao\\detail1.jpg"},
+    {"id": 12369, "productName":"Tấm ốp NTA 5 sóng ngắn","price": "91.500", "url": "image\\product\\thewood-NTA-5songngan\\detail1.jpg"},    
+    {"id": 12370, "productName":"Tấm ốp NTA 300mm","price": "270.000", "url": "image\\product\\thewood-NTA-300mm\\detail1.jpg"},    
+    {"id": 12371, "productName":"Tấm ốp NTA 400mm","price": "300.000", "url": "image\\product\\thewood-NTA-400mm\\detail1.jpg"},    
     // {"id": 12372, "productName":"Tấm ốp NTK 3 600mm","price": "60.000", "url": "image\\product\\thewood-NTA-600\\detail01.jpg"},
 ]
 
