@@ -70,7 +70,6 @@ let tamOpNhuaNgoaiTroi = [
     {"id": 12360, "productName":"Tấm ốp EW 115T9","price": "55.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat11.jpg"},
     {"id": 12361, "productName":"Tấm ốp EW 115T9","price": "55.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat12.jpg"},
     {"id": 12362, "productName":"Tấm ốp EW 115T10","price": "45.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat13.jpg"},
-    {"id": 12363, "productName":"Tấm ốp EW 115T10","price": "45.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat14.jpg"},
     {"id": 12364, "productName":"Tấm ốp EW 115T10","price": "45.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat15.jpg"},
     {"id": 12365, "productName":"Tấm ốp EW 115T10","price": "45.000", "url": "image\\product\\tamoptuongnoithat\\tamoptuongnoithat16.jpg"},
 ]
